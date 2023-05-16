@@ -26,6 +26,12 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Gallery Stylesheet -->
+    <link href="css/gallery.css" rel="stylesheet">
+
+    <!-- Gallery JS -->
+    <script type="text/javascript" src="js/gallery.js"></script>
 </head>
 
 <body>
@@ -35,11 +41,11 @@
             <div class="row">
                 <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-white pr-3" href="#contact-us">FAQs</a>
+                        <a class="text-white pr-3" href="#">FAQs</a>
                         <span class="text-white">|</span>
-                        <a class="text-white px-3" href="#contact-us">Help</a>
+                        <a class="text-white px-3" href="#">Help</a>
                         <span class="text-white">|</span>
-                        <a class="text-white pl-3" href="#contact-us">Support</a>
+                        <a class="text-white pl-3" href="#">Support</a>
                     </div>
                 </div>
                 <div class="col-md-6 text-center text-lg-right">
@@ -53,7 +59,7 @@
                         <a class="text-white px-3" href="">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a class="text-white px-3" href="">
+                        <a class="text-white px-3" href="https://www.instagram.com/azsealantsllc/">
                             <i class="fab fa-instagram"></i>
                         </a>
                         <a class="text-white pl-3" href="">
@@ -80,7 +86,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="index.php" class="nav-item nav-link active">Home</a>
                         <a href="#about-us" class="nav-item nav-link">About</a>
                         <a href="#our-services" class="nav-item nav-link">Service</a>
                         <a href="#our-projects" class="nav-item nav-link">Projects</a>
@@ -139,7 +145,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid bg-secondary py-5">
+    <div class="container-fluid bg-secondary py-5 my-5">
         <div class="container py-5">
             <div class="row align-items-center py-4">
                 <div class="col-md-6 text-center text-md-left">
@@ -159,13 +165,8 @@
 
 
     <!-- Projects Start -->
-    <div class="row justify-content-center py-5">
-        <div class="col-lg-6 col-md-8 col text-center mb-4">
-            <h6 class="text-primary font-weight-normal text-uppercase mb-3">Our Projects</h6>
-            <h1 class="mb-4">Some Of Our Awesome Projects</h1>
-        </div>
-    </div>
-    <!-- <div class="container-fluid py-5">
+
+    <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-8 col text-center mb-4">
@@ -184,17 +185,14 @@
                 </div>
             </div>
             <div class="row mx-1 portfolio-container">
-                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first m-1">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img d-flex align-items-center justify-content-center">
                             <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                            <h4 class="text-white mb-4">Project Name</h4>
                             <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn btn-outline-primary m-1" href="">
-                                    <i class="fa fa-link"></i>
-                                </a>
+
                                 <a class="btn btn-outline-primary m-1" href="img/portfolio-1.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -202,17 +200,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second m-1">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img d-flex align-items-center justify-content-center">
                             <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                            <h4 class="text-white mb-4">Project Name</h4>
                             <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn btn-outline-primary m-1" href="">
-                                    <i class="fa fa-link"></i>
-                                </a>
+
                                 <a class="btn btn-outline-primary m-1" href="img/portfolio-2.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -220,17 +215,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img d-flex align-items-center justify-content-center">
                             <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                            <h4 class="text-white mb-4">Project Name</h4>
                             <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn btn-outline-primary m-1" href="">
-                                    <i class="fa fa-link"></i>
-                                </a>
+
                                 <a class="btn btn-outline-primary m-1" href="img/portfolio-3.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -238,17 +230,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item first m-1">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img d-flex align-items-center justify-content-center">
                             <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                            <h4 class="text-white mb-4">Project Name</h4>
                             <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn btn-outline-primary m-1" href="">
-                                    <i class="fa fa-link"></i>
-                                </a>
+
                                 <a class="btn btn-outline-primary m-1" href="img/portfolio-4.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -256,17 +245,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item second m-1">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img d-flex align-items-center justify-content-center">
                             <img class="img-fluid" src="img/portfolio-5.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                            <h4 class="text-white mb-4">Project Name</h4>
                             <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn btn-outline-primary m-1" href="">
-                                    <i class="fa fa-link"></i>
-                                </a>
+
                                 <a class="btn btn-outline-primary m-1" href="img/portfolio-5.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -274,17 +260,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third">
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
                     <div class="position-relative overflow-hidden">
                         <div class="portfolio-img d-flex align-items-center justify-content-center">
                             <img class="img-fluid" src="img/portfolio-6.jpg" alt="">
                         </div>
                         <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                            <h4 class="text-white mb-4">Project Name</h4>
                             <div class="d-flex align-items-center justify-content-center">
-                                <a class="btn btn-outline-primary m-1" href="">
-                                    <i class="fa fa-link"></i>
-                                </a>
+
                                 <a class="btn btn-outline-primary m-1" href="img/portfolio-6.jpg" data-lightbox="portfolio">
                                     <i class="fa fa-eye"></i>
                                 </a>
@@ -292,11 +275,542 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs0.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs0.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs1.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs2.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs2.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs3.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs3.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs4.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs4.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs5.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs5.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs6.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs6.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs7.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs7.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs8.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs8.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs9.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs9.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs10.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs10.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs11.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs11.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs12.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs12.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/whtSmKitCabs13.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/whtSmKitCabs13.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/tanLuxHm1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/tanLuxHm1.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/tanLuxHm1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/tanLuxHm1.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/tanLuxHm2.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/tanLuxHm2.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/tanLuxHm3.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/tanLuxHm3.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/tanLuxHm4.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/tanLuxHm4.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/tanLuxHm5.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/tanLuxHm5.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/tanLuxHm6.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/tanLuxHm6.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/tanLuxHm7.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/tanLuxHm7.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/tanLuxHm8.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/tanLuxHm8.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/bigGarage1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/bigGarage1.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/bigGarage2.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/bigGarage2.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/bigGarage3.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/bigGarage3.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/bigGarage4.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/bigGarage4.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/cabsDone1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/cabsDone1.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/cabsDone2.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/cabsDone2.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/cabsDone3.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/cabsDone3.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/cabSpray1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/cabSpray1.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12 p-0 portfolio-item third m-1">
+                    <div class="position-relative overflow-hidden">
+                        <div class="portfolio-img d-flex align-items-center justify-content-center">
+                            <img class="img-fluid" src="img/realPics/cabSpray2.jpg" alt="">
+                        </div>
+                        <div class="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <a class="btn btn-outline-primary m-1" href="img/realPics/cabSpray2.jpg" data-lightbox="portfolio">
+                                    <i class="fa fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Projects End -->
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <!-- Footer Start -->
     <div id="contact-us" class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">

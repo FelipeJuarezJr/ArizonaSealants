@@ -66,7 +66,7 @@
                         <a class="text-white px-3" href="">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a class="text-white px-3" href="">
+                        <a class="text-white px-3" href="https://www.instagram.com/azsealantsllc/">
                             <i class="fab fa-instagram"></i>
                         </a>
                         <a class="text-white pl-3" href="">
@@ -96,7 +96,7 @@
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#about-us" class="nav-item nav-link">About</a>
                         <a href="#our-services" class="nav-item nav-link">Service</a>
-                        <a href="#our-projects" class="nav-item nav-link">Projects</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
                         <!-- This below may be used at a later date -->
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
@@ -675,7 +675,6 @@
     </div> -->
     <!-- Blog End -->
 
-
     <!-- Footer Start -->
     <div id="contact-us" class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
         <div class="row pt-5">
@@ -686,9 +685,9 @@
                 <p><i class="fa fa-envelope mr-2"></i>info@arizonasealants.com</p>
                 <div class="d-flex justify-content-start mt-4">
                     <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://www.facebook.com/arizonasealantsllc"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="https://www.instagram.com/azsealantsllc/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
@@ -697,7 +696,7 @@
                     <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
                     <a class="text-white mb-2" href="#about-us"><i class="fa fa-angle-right mr-2"></i>About Us</a>
                     <a class="text-white mb-2" href="#our-services"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
-                    <a class="text-white mb-2" href="#our-projects"><i class="fa fa-angle-right mr-2"></i>Our Projects</a>
+                    <a class="text-white mb-2" href="project.html"><i class="fa fa-angle-right mr-2"></i>Our Projects</a>
                     <a class="text-white" href="#contact-us"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                 </div>
             </div>
